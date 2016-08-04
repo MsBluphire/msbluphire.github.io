@@ -9,3 +9,13 @@ for(var i=0; i < skills_array.length; i += 1){
     $('.skills-section-images').append(skills_new);
 
 }
+
+//experience section
+
+var experience = '<li><h4>%data% &nbsp; &nbsp; &nbsp; ( %data1% ) </h4><h5>%data2%</h5></li>';
+
+var experience_array = [
+   {},
+   {},
+   {}
+]
