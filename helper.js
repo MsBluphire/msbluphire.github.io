@@ -44,7 +44,7 @@ for (var i = 0; i < experience_array.length; i += 1) {
 
 
 // projects section
-var projects = '<li><h3>...</h3><div class="row"><div class="col-md-3"><img src="./img/%data1%.gif" alt="project-images" class="img-responsive"></div><div class="col-md-9"><h4>Language(s): %data2%</h4><h5>Info: %data3%</h5><h5>Code: %data4%</h5></div></div></li><hr>'
+var projects = '<li><h3>...</h3><div class="row"><div class="col-md-3"><img src="./img/%data1%.png" alt="project-images" class="img-responsive"></div><div class="col-md-9"><h4>Language(s): %data2%</h4><h5>Info: %data3%</h5><h5>Code: %data4%</h5></div></div></li><hr>'
 var projects_array = [
 {
     name:'Rock Paper Scissors',
