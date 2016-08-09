@@ -1,4 +1,6 @@
-﻿var skills = '<div class="col-md-3"><img src="./img/%data%.png" alt="my skills" class="img-responsive img-circle"/></div>';
+﻿//skills section
+
+var skills = '<div class="col-md-3"><img src="./img/%data%.png" alt="my skills" class="img-responsive img-circle"/></div>';
 
 var skills_array = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11','12'];
 
@@ -42,9 +44,8 @@ for (var i = 0; i < experience_array.length; i += 1) {
 
 }
 
-
 // projects section
-var projects = '<li><h3>...</h3><div class="row"><div class="col-md-3"><img src="./img/%data1%.png" alt="project-images" class="img-responsive"></div><div class="col-md-9"><h4>Language(s): %data2%</h4><h5>Info: %data3%</h5><h5>Code: %data4%</h5></div></div></li><hr>'
+var projects = '<li><h3>%data%</h3><div class="row"><div class="col-md-3"><img src="./img/%data1%.png" alt="project-images" class="img-responsive"></div><div class="col-md-9"><h4>Language(s): %data2%</h4><h5>Info: %data3%</h5><h5>Code: %data4% </h5></div></div></li><hr>'
 var projects_array = [
 {
     name:'Rock Paper Scissors',
@@ -54,18 +55,18 @@ var projects_array = [
     code:'https://github.com/MsBluphire/rock-paper-scissors'
     },
 {
-    name: '',
-    img: '',
-    language: '',
+    name: 'TuscanyVilla Website',
+    img: 'c',
+    language: 'HTML, CSS, Bootstrap',
     info: '',
-    code:''
+    code: 'https://github.com/MsBluphire/tuscany-villa'
     },
 {
     name:'Unity Breakout Game',
     img: 'a',
     language: 'C#',
-    info: 'A video game built using the Unity and C#.',
-    code:''
+    info: 'A 3D video game built utilizing the Unity framework and C#.',
+    code: 'https://github.com/MsBluphire/unity-game-development'
     }
 ];
 
